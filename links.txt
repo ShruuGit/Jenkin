@@ -1,0 +1,62 @@
+1.https://regu.fisglobal.com/
+2.https://fisglobal.sharepoint.com/sites/fisandme-21/India%20Policy%20Documents/Forms/AllItems.aspx?
+viewid=acfd3a4e%2D5c39%2D4f58%2D96ac%2D3a144fee62b3
+3.Handbook-https://fisglobal.sharepoint.com/:b:/r/sites/fisandme-21/SiteAssets/SitePages/India/APAC
+-IN-Employee%20Handbook.pdf?csf=1&web=1&e=atB40p
+4.[12:34 PM] Pawar, Glory
+To raise employee support ticket: 1.Log into GSC https://support.fis.app
+2.Chrome or IE browser
+3. On the GSC Home page Under Useful Links > Quick Links > The People Office
+4. The People Office Home page > Click the Employee Support which will direct you to the Legacy Employee Support Page. IE is recommendded and should be connected to VPN ( advisable ) to open Legacy Employee Support page.
+Note : Please make sure to clear Caches / Cookies and History when opening the Legacy Employee Support page.OR Use below link to raise Workday / Talent Technologies Support requests. Select I Need Something / I Have Problem > Service Needed > Select Appropriate People Office option https://employeesupport.fnfis.com/legacy
+ star 28 like 3
+
+4.http://shopping.fnfis.com/Shopping/Identity/Index?ReturnUrl=%2fShopping%2fdefault.aspx
+5.unlock change password-https://ssp.fnfis.com/
+6.Training day-1:-https://rpsconsulting-my.sharepoint.com/:f:/g/personal/amit_pohare_rpsconsulting_in/EohSeolUCyhJv8JdNAoNxA4B_XGbNSdecpg6EyxnWzHyJQ?e=9nqth4
+7.Training day 2:-https://rpsconsulting-my.sharepoint.com/:f:/g/personal/amit_pohare_rpsconsulting_in/EvBviQVmuARBljOvuxB3XhcBQdzzBo3A8DiaQeuSR0kVUg?e=nDMcaQ
+8.Training day-3:-https://rpsconsulting-my.sharepoint.com/:f:/g/personal/amit_pohare_rpsconsulting_in/EvBviQVmuARBljOvuxB3XhcBQdzzBo3A8DiaQeuSR0kVUg?e=nDMcaQ
+9.YouTube Link :-https://www.youtube.com/playlist?list=PL0wefbX90CmZ1PhNcwaX2kNod7BthWSUk
+10.https://rpsconsulting-my.sharepoint.com/:b:/g/personal/amit_pohare_rpsconsulting_in/EUxkrEXz07hKrCySLKXaEr4B0iraDQpXzgcosUMQkXpeCA?e=2qlj3x
+11.Clarity Timesheet :- https://clarity.fis.moventus.com/niku/nu
+12. Entity framework core some command :-
+    Add Nuget Packages
+1.Entity Framework Core
+2. Core SQL
+3. Core Tools
+
+1. PM Console:
+Scaffold-DbContext "Server=.;Database=LTI937;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir LTIModel
+
+enable-migrations
+update--database
+
+2. In appsettings.json:
+ "ConnectionStrings": {
+      "DefaultConnection": "Server=.;Database=Organization;Trusted_Connection=True;"
+    },
+
+3. Startup.cs
+ services.AddDbContext<OrganizationContext>(options =>
+       options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+https://www.entityframeworktutorial.net/efcore/create-model-for-existing-database-in-ef-core.aspx
+
+https://docs.microsoft.com/en-us/ef/core/miscellaneous/connection-strings
+
+4. services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            });
+
+5. app.UseCors(options => options.AllowAnyOrigin());
+***Microservices **
+1.https://www.c-sharpcorner.com/article/microservice-using-asp-net-core/
+2.https://github.com/Shrivalli/ProductAPI.git
+3.https://github.com/Shrivalli/WebAPI-Gateway-Eg.git
+4.https://www.lambdatest.com/blog/build-ci-cd-pipeline-in-azure-devops/#:~:text=The%20Azure%20CI%2FCD%20pipeline,GitHub%20or%20on-premise%20containers
+5.https://www.youtube.com/watch?v=xuH81XGWeGQ&ab_channel=edureka%21
+6.https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/communication-in-microservice-architecture
+6.https://www.youtube.com/watch?v=j3XufmvEMiM&ab_channel=freeCodeCamp.org
+7.https://www.simplilearn.com/tutorials/docker-tutorial
+8.https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/docker/building-net-docker-images?view=aspnetcore-5.0
